@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    /* background: rgb(39, 37, 37); */
+    /* text-align: right; */
+}
+
+/* Project - TEMPERATURE CONVERSION APP */
+
+
+.main-section {
+  background-color: rgb(189, 245, 245);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#form-container {
+  border: 1px solid blue;
+  padding: 10px;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  background: linear-gradient(to right, lightyellow, orange);
+}
+
+#title, .input-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+#textBox {
+  width: 300px;
+  height: 30px;
+  padding: 20px 0;
+  font-size: 1.5em;
+  text-align: center;
+  border-radius: 10px;
+  border: 0.1px solid lightblue;
+  outline: none;
+}
+
+.part-celsius, .part-fahrenheit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  padding-left: 10px;
+}
+
+.part-CelFah {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+
+.part-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#submitBtn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid lightblue;
+  font-weight: 550;
+}
+
+#result {
+  color: red;
+  font-weight: 550;
+}

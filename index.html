@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEMPERATURE CONVERSION APP 🌡️</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+
+    <!-- Project - TEMPERATURE CONVERSION PROGRAM -->
+
+<div class="main-section">
+    
+    <form action="" id="form-container">
+        <div id="title">
+            <h1>Temperature conversion program</h1>
+        </div>
+
+        <div class="input-part">
+            <input type="number" id="textBox" value="0">
+        </div>
+
+        <div class="part-CelFah">
+            <div class="part-celsius">
+                <input type="radio" id="toFahrenheit" name="unit">
+                <label for="toFahrenheit">Celsius &rarr; Fahrenheit</label>
+            </div>
+    
+            <div class="part-fahrenheit">
+                <input type="radio" id="toCelsius" name="unit">
+                <label for="toCelsius">Fahrenheit &rarr; Celsius</label>
+            </div>
+        </div>
+
+        <div class="part-button">
+            <button id="submitBtn" type="button" onclick="convert()">Submit</button>
+        </div>
+
+        <div class="part-result">
+            <p id="result"></p>
+        </div>
+
+    </form>
+
+</div>
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
